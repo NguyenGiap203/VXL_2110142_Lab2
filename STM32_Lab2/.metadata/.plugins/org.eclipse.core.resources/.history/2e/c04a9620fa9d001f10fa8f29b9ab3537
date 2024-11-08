@@ -238,7 +238,6 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim){
 		index_led = (index_led + 1) % MAX_LED;
 	}
 	if(dot_time <= 0){
-		dot_time = 100;
 		HAL_GPIO_TogglePin(DOT_GPIO_Port, DOT_Pin);
 	}
 }
