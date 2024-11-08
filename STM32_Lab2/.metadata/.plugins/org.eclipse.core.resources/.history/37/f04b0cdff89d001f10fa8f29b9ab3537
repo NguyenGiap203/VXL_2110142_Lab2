@@ -23,7 +23,6 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "display7SEG.h"
-#include "update7SEG.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -228,12 +227,40 @@ static void MX_GPIO_Init(void)
 
 /* USER CODE BEGIN 4 */
 int counter = 50;
+int status = 1;
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim){
 	counter--;
 	if(counter <= 0){
 		counter = 50;
-		update7SEG(index_led);
-		index_led = (index_led + 1) % MAX_LED;
+		switch(status){
+		case 1:
+			HAL_GPIO_WritePin(GPIOA, EN0_Pin|DOT_Pin, RESET);
+			HAL_GPIO_WritePin(GPIOA, EN1_Pin|EN2_Pin|EN3_Pin, SET);
+			display7SEG(1);
+			status = 2;
+			break;
+		case 2:
+			HAL_GPIO_WritePin(GPIOA, EN1_Pin|DOT_Pin, RESET);
+			HAL_GPIO_WritePin(GPIOA, EN0_Pin|EN2_Pin|EN3_Pin, SET);
+			display7SEG(2);
+			status = 3;
+			break;
+		case 3:
+			HAL_GPIO_WritePin(GPIOA, EN2_Pin, RESET);
+			HAL_GPIO_WritePin(GPIOA, EN0_Pin|EN1_Pin|EN3_Pin|DOT_Pin, SET);
+			display7SEG(3);
+			status = 0;
+			break;
+		case 0:
+			HAL_GPIO_WritePin(GPIOA, EN3_Pin, RESET);
+			HAL_GPIO_WritePin(GPIOA, EN0_Pin|EN1_Pin|EN2_Pin|DOT_Pin, SET);
+			display7SEG(0);
+			status = 1;
+			break;
+		default:
+			status = 1;
+			break;
+		}
 	}
 }
 /* USER CODE END 4 */
