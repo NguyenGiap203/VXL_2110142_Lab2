@@ -1243,3 +1243,73 @@
 2024-11-08 22:54:40,826 [INFO] ProjectBuilder:3789 - Time for Generating toolchain IDE Files: 3822mS.
 2024-11-08 22:54:40,826 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
 2024-11-08 22:54:40,827 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
+2024-11-08 23:56:47,130 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 883683480 Bytes (1073741824)
+2024-11-08 23:56:47,181 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 897338904 Bytes (1073741824)
+2024-11-08 23:56:47,528 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 869025224 Bytes (1073741824)
+2024-11-08 23:56:47,857 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2024-11-08 23:56:47,857 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2024-11-08 23:56:47,857 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2024-11-08 23:56:47,857 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2024-11-08 23:56:47,857 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8F1
+2024-11-08 23:56:47,858 [INFO] CodeGenerator:663 - code generatio: config db path: C:\ST\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\
+2024-11-08 23:56:48,255 [INFO] CodeEngine:239 - oldGeneratedFile, E:\BKU\Se241\CO3009_MM\Experiments\L06_2110142_Lab2\STM32_Lab2\Timer\MXTmpFiles\license.tmp_save
+2024-11-08 23:56:48,313 [INFO] CodeEngine:257 - Generated code: E:\BKU\Se241\CO3009_MM\Experiments\L06_2110142_Lab2\STM32_Lab2\Timer\MXTmpFiles\license.tmp
+2024-11-08 23:56:48,402 [INFO] CodeEngine:239 - oldGeneratedFile, E:\BKU\Se241\CO3009_MM\Experiments\L06_2110142_Lab2\STM32_Lab2\Timer\MXTmpFiles\gpio.tmp_save
+2024-11-08 23:56:48,482 [INFO] CodeEngine:257 - Generated code: E:\BKU\Se241\CO3009_MM\Experiments\L06_2110142_Lab2\STM32_Lab2\Timer\MXTmpFiles\gpio.tmp
+2024-11-08 23:56:48,565 [INFO] CodeEngine:239 - oldGeneratedFile, E:\BKU\Se241\CO3009_MM\Experiments\L06_2110142_Lab2\STM32_Lab2\Timer\Core\Src\stm32f1xx_it.c_save
+2024-11-08 23:56:48,670 [INFO] CodeEngine:257 - Generated code: E:\BKU\Se241\CO3009_MM\Experiments\L06_2110142_Lab2\STM32_Lab2\Timer\Core\Src\stm32f1xx_it.c
+2024-11-08 23:56:48,687 [INFO] CodeEngine:239 - oldGeneratedFile, E:\BKU\Se241\CO3009_MM\Experiments\L06_2110142_Lab2\STM32_Lab2\Timer\Core\Inc\stm32f1xx_it.h_save
+2024-11-08 23:56:48,758 [INFO] CodeEngine:257 - Generated code: E:\BKU\Se241\CO3009_MM\Experiments\L06_2110142_Lab2\STM32_Lab2\Timer\Core\Inc\stm32f1xx_it.h
+2024-11-08 23:56:48,781 [INFO] CodeEngine:239 - oldGeneratedFile, E:\BKU\Se241\CO3009_MM\Experiments\L06_2110142_Lab2\STM32_Lab2\Timer\Core\Src\stm32f1xx_hal_msp.c_save
+2024-11-08 23:56:48,892 [INFO] CodeEngine:257 - Generated code: E:\BKU\Se241\CO3009_MM\Experiments\L06_2110142_Lab2\STM32_Lab2\Timer\Core\Src\stm32f1xx_hal_msp.c
+2024-11-08 23:56:48,899 [INFO] CodeEngine:239 - oldGeneratedFile, E:\BKU\Se241\CO3009_MM\Experiments\L06_2110142_Lab2\STM32_Lab2\Timer\MXTmpFiles\system.tmp_save
+2024-11-08 23:56:48,945 [INFO] CodeEngine:257 - Generated code: E:\BKU\Se241\CO3009_MM\Experiments\L06_2110142_Lab2\STM32_Lab2\Timer\MXTmpFiles\system.tmp
+2024-11-08 23:56:48,964 [INFO] CodeEngine:239 - oldGeneratedFile, E:\BKU\Se241\CO3009_MM\Experiments\L06_2110142_Lab2\STM32_Lab2\Timer\Core\Inc\stm32f1xx_hal_conf.h_save
+2024-11-08 23:56:49,045 [INFO] CodeEngine:257 - Generated code: E:\BKU\Se241\CO3009_MM\Experiments\L06_2110142_Lab2\STM32_Lab2\Timer\Core\Inc\stm32f1xx_hal_conf.h
+2024-11-08 23:56:49,061 [WARN] IPConfigManager:3148 - IP not found : TIM
+2024-11-08 23:56:49,062 [WARN] CodeGenerator:3268 - IP not found : null
+2024-11-08 23:56:49,086 [INFO] CodeEngine:239 - oldGeneratedFile, E:\BKU\Se241\CO3009_MM\Experiments\L06_2110142_Lab2\STM32_Lab2\Timer\Core\Inc\main.h_save
+2024-11-08 23:56:49,165 [INFO] CodeEngine:257 - Generated code: E:\BKU\Se241\CO3009_MM\Experiments\L06_2110142_Lab2\STM32_Lab2\Timer\Core\Inc\main.h
+2024-11-08 23:56:49,181 [INFO] CodeEngine:239 - oldGeneratedFile, E:\BKU\Se241\CO3009_MM\Experiments\L06_2110142_Lab2\STM32_Lab2\Timer\Core\Src\main.c_save
+2024-11-08 23:56:49,282 [INFO] CodeEngine:257 - Generated code: E:\BKU\Se241\CO3009_MM\Experiments\L06_2110142_Lab2\STM32_Lab2\Timer\Core\Src\main.c
+2024-11-08 23:56:50,559 [INFO] ProjectBuilder:2578 - Time for Copy HAL[1] : 52mS.
+2024-11-08 23:56:50,563 [INFO] ProjectBuilder:3622 - Project Generator version: 3.14.1
+2024-11-08 23:56:50,999 [INFO] ConfigFileManager:1271 - The Die is : DIE412
+2024-11-08 23:56:53,044 [INFO] ProjectBuilder:3789 - Time for Generating toolchain IDE Files: 2481mS.
+2024-11-08 23:56:53,045 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 1mS.
+2024-11-08 23:56:53,048 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
+2024-11-09 00:03:25,985 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 921234272 Bytes (1073741824)
+2024-11-09 00:03:26,035 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 932029072 Bytes (1073741824)
+2024-11-09 00:03:26,509 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 909006752 Bytes (1073741824)
+2024-11-09 00:03:26,942 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2024-11-09 00:03:26,942 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2024-11-09 00:03:26,943 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2024-11-09 00:03:26,943 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2024-11-09 00:03:26,943 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8F1
+2024-11-09 00:03:26,943 [INFO] CodeGenerator:663 - code generatio: config db path: C:\ST\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\
+2024-11-09 00:03:27,255 [INFO] CodeEngine:239 - oldGeneratedFile, E:\BKU\Se241\CO3009_MM\Experiments\L06_2110142_Lab2\STM32_Lab2\Timer\MXTmpFiles\license.tmp_save
+2024-11-09 00:03:27,363 [INFO] CodeEngine:257 - Generated code: E:\BKU\Se241\CO3009_MM\Experiments\L06_2110142_Lab2\STM32_Lab2\Timer\MXTmpFiles\license.tmp
+2024-11-09 00:03:27,411 [INFO] CodeEngine:239 - oldGeneratedFile, E:\BKU\Se241\CO3009_MM\Experiments\L06_2110142_Lab2\STM32_Lab2\Timer\MXTmpFiles\gpio.tmp_save
+2024-11-09 00:03:27,526 [INFO] CodeEngine:257 - Generated code: E:\BKU\Se241\CO3009_MM\Experiments\L06_2110142_Lab2\STM32_Lab2\Timer\MXTmpFiles\gpio.tmp
+2024-11-09 00:03:27,605 [INFO] CodeEngine:239 - oldGeneratedFile, E:\BKU\Se241\CO3009_MM\Experiments\L06_2110142_Lab2\STM32_Lab2\Timer\Core\Src\stm32f1xx_it.c_save
+2024-11-09 00:03:27,741 [INFO] CodeEngine:257 - Generated code: E:\BKU\Se241\CO3009_MM\Experiments\L06_2110142_Lab2\STM32_Lab2\Timer\Core\Src\stm32f1xx_it.c
+2024-11-09 00:03:27,747 [INFO] CodeEngine:239 - oldGeneratedFile, E:\BKU\Se241\CO3009_MM\Experiments\L06_2110142_Lab2\STM32_Lab2\Timer\Core\Inc\stm32f1xx_it.h_save
+2024-11-09 00:03:27,833 [INFO] CodeEngine:257 - Generated code: E:\BKU\Se241\CO3009_MM\Experiments\L06_2110142_Lab2\STM32_Lab2\Timer\Core\Inc\stm32f1xx_it.h
+2024-11-09 00:03:27,854 [INFO] CodeEngine:239 - oldGeneratedFile, E:\BKU\Se241\CO3009_MM\Experiments\L06_2110142_Lab2\STM32_Lab2\Timer\Core\Src\stm32f1xx_hal_msp.c_save
+2024-11-09 00:03:27,966 [INFO] CodeEngine:257 - Generated code: E:\BKU\Se241\CO3009_MM\Experiments\L06_2110142_Lab2\STM32_Lab2\Timer\Core\Src\stm32f1xx_hal_msp.c
+2024-11-09 00:03:27,969 [INFO] CodeEngine:239 - oldGeneratedFile, E:\BKU\Se241\CO3009_MM\Experiments\L06_2110142_Lab2\STM32_Lab2\Timer\MXTmpFiles\system.tmp_save
+2024-11-09 00:03:28,021 [INFO] CodeEngine:257 - Generated code: E:\BKU\Se241\CO3009_MM\Experiments\L06_2110142_Lab2\STM32_Lab2\Timer\MXTmpFiles\system.tmp
+2024-11-09 00:03:28,036 [INFO] CodeEngine:239 - oldGeneratedFile, E:\BKU\Se241\CO3009_MM\Experiments\L06_2110142_Lab2\STM32_Lab2\Timer\Core\Inc\stm32f1xx_hal_conf.h_save
+2024-11-09 00:03:28,120 [INFO] CodeEngine:257 - Generated code: E:\BKU\Se241\CO3009_MM\Experiments\L06_2110142_Lab2\STM32_Lab2\Timer\Core\Inc\stm32f1xx_hal_conf.h
+2024-11-09 00:03:28,134 [WARN] IPConfigManager:3148 - IP not found : TIM
+2024-11-09 00:03:28,134 [WARN] CodeGenerator:3268 - IP not found : null
+2024-11-09 00:03:28,149 [INFO] CodeEngine:239 - oldGeneratedFile, E:\BKU\Se241\CO3009_MM\Experiments\L06_2110142_Lab2\STM32_Lab2\Timer\Core\Inc\main.h_save
+2024-11-09 00:03:28,222 [INFO] CodeEngine:257 - Generated code: E:\BKU\Se241\CO3009_MM\Experiments\L06_2110142_Lab2\STM32_Lab2\Timer\Core\Inc\main.h
+2024-11-09 00:03:28,232 [INFO] CodeEngine:239 - oldGeneratedFile, E:\BKU\Se241\CO3009_MM\Experiments\L06_2110142_Lab2\STM32_Lab2\Timer\Core\Src\main.c_save
+2024-11-09 00:03:28,323 [INFO] CodeEngine:257 - Generated code: E:\BKU\Se241\CO3009_MM\Experiments\L06_2110142_Lab2\STM32_Lab2\Timer\Core\Src\main.c
+2024-11-09 00:03:29,103 [INFO] ProjectBuilder:2578 - Time for Copy HAL[1] : 54mS.
+2024-11-09 00:03:29,106 [INFO] ProjectBuilder:3622 - Project Generator version: 3.14.1
+2024-11-09 00:03:29,940 [INFO] ConfigFileManager:1271 - The Die is : DIE412
+2024-11-09 00:03:31,967 [INFO] ProjectBuilder:3789 - Time for Generating toolchain IDE Files: 2861mS.
+2024-11-09 00:03:31,968 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 1mS.
+2024-11-09 00:03:31,970 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
