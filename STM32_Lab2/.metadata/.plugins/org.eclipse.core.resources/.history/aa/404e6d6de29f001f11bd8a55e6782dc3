@@ -94,8 +94,8 @@ int main(void)
   /* USER CODE BEGIN 2 */
   HAL_TIM_Base_Start_IT(&htim2);
 
-  setTimer(0, 1020);	// LED DOT
-  setTimer(1, 1030); 	// Update clock
+  setTimer(0, 20);	// LED DOT
+  setTimer(1, 30); 	// Update clock
   setTimer(2, 1050);	// Display 7SEG
   /* USER CODE END 2 */
 
